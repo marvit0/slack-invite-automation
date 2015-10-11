@@ -15,6 +15,10 @@
     "SLACK_TOKEN": {
       "description": "access token of slack, You can generate it in https://api.slack.com/web#auth",
       "value": ""
+    },
+    "SET_ACTIVE": {
+      "description": "whether or not the user will be created as active or not",
+      "value": "false"
     }
   }
 }

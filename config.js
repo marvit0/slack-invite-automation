@@ -12,5 +12,7 @@ module.exports = {
   //   curl -X POST 'https://YOUR-SLACK-TEAM.slack.com/api/users.admin.invite' \
   //   --data 'email=EMAIL&token=TOKEN&set_active=true' \
   //   --compressed
-  slacktoken: process.env.SLACK_TOKEN || 'YOUR-ACCESS-TOKEN'
+  slacktoken: process.env.SLACK_TOKEN || 'YOUR-ACCESS-TOKEN',
+  // marvit0 - added config element in order to control whether or we create the user as active or not. 
+  setActive: process.env.SET_ACTIVE || 'false'
 };
